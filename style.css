@@ -172,7 +172,7 @@ a {
 	border-radius: 15px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 480px) {
 	.projects-section {
 		padding: 3rem 0.5rem;
 	}
