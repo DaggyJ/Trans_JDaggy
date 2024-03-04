@@ -116,17 +116,16 @@ a {
 	align-items: center;
 	width: 100%;
 	height: 100vh;
-  
-    /*background-color: #30302c;*/
+    background-color: #30302c;
 }
 
-.img {
+/*.img {
 	background-image: url(./media/JD.jpg);
 	background-repeat: no repeat;
 	color: purple;
 	border-radius: 2px;
 	height: 200px;
-	width: 250px;
+	width: 250px;*/
 }
 .welcome-section > p {
 	font-family: 'Sofia';
