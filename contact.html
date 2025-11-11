@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — J. Daggy</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header navbar-custom">
+  <div class="container header-inner">
+
+    <!-- Brand -->
+    <a class="brand spin-name" href="index.html">JONSON DOUGLAS</a>
+
+    <!-- Navbar -->
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link active">About</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+
+    <!-- Moving Text / Ticker -->
+    <div class="ticker">
+      <p>🎨 Web Developer • 💻 Teacher • ✨ Creative Designer • Pastor & Minister</p>
+    </div>
+
+  </div>
+</header>
+
+
+  <main>
+  <section class="contact-section container">
+    <h1>Get in Touch</h1>
+    <p>Fill the form below or use one of my direct contact methods.</p>
+
+    <form id="contact-form">
+      <input type="text" id="name" name="name" placeholder="Your full name" required>
+      <input type="email" id="email" name="_replyto" placeholder="Your email address" required>
+      <input type="text" id="phone" name="phone" placeholder="Phone (e.g., +254712345678)" required>
+      <textarea id="message" name="message" rows="6" placeholder="Your prayer request (min 15 words)" required></textarea>
+      <button type="submit" class="btn primary">Send Request</button>
+      <p id="form-feedback"></p>
+    </form>
+
+    <div class="contact-info">
+      <h2>Contact Me</h2>
+      <p>Let's collaborate or build something meaningful together.</p>
+      <p>📧 Email: <a href="mailto:tranxporterdaggy@gmail.com">tranxporterdaggy@gmail.com</a></p>
+      <p>💬 WhatsApp: <a href="https://wa.me/254110426968?text=Hello%20Daggy!%20I%20visited%20your%20portfolio" target="_blank">Chat now</a></p>
+      <p>📘 Messenger: <a href="https://m.me/yourfacebookusername?ref=PortfolioContact" target="_blank">Message me</a></p>
+    </div>
+  </section>
+</main>
+
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <span class="brand-sm">J. Daggy</span>
+        <small>© <span id="year"></span> DaggyJ. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="assets/js/contact.js" defer></script>
+</body>
+</html>
